@@ -1,0 +1,24 @@
+
+
+<form action="/users/<%= current_user.id %>/journals/<%= @journal_id %>" method='post'>
+  <input type="hidden" name="_method" value="put">
+
+  <!-- font dropdown menu goes here -->
+
+    <div id="format_bar">
+      <select id="/users/<%= current_user.id %>/journals/<%= @journal_id %>/update_font">
+        <option>Select a Font!</option>
+      </select>
+      <a id="discard" href="/users/<%= current_user.id %>">Discard</a>
+      <input id="submit_link" type="submit" value="Add Splot">
+    </div>
+
+    <input placeholder="Title" id ="journal_title" type="text" name="journal[title]"> <br>
+
+    <textarea id="journal_template" type="text" name="journal[body]">
+    </textarea><br>
+
+    <input type="hidden" value="<%= current_user.id %>" name="journal[user_id]">
+
+
+</form>

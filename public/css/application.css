@@ -1,0 +1,207 @@
+@font-face{
+  font-family: 'museo';
+  src: url('/fonts/MuseoSans_500-webfont.ttf') format('truetype');
+}
+body {
+  background: url(../images/blur_bg_1.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  /*font-family: museo;*/
+  font-family: 'Nunito';
+  font-weight: 300;
+
+  color: white;
+}
+
+legend{
+  color: white;
+}
+
+
+.btn{
+  margin-top: 20px;
+}
+
+.form-horizontal{
+  margin-top: 40px;
+}
+
+header{
+  background-color: #40444A;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+
+-webkit-box-shadow: 0 1px 2px #000;
+  -moz-box-shadow: 0 2px 1px #000;
+  box-shadow: 100 200px 100px #000;
+
+}
+
+header h1{
+  margin: 0;
+
+}
+
+.signup{
+  margin-top: 10px;
+}
+
+input, textarea, select, option{
+  color: black;
+}
+
+#logo{
+  width: 150px;
+}
+
+textarea#journal_template {
+  width: 80%;
+  min-height: 1000px;
+  margin: 0 10%;
+  border: 3px solid #cccccc;
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  margin-bottom: 40px;
+}
+
+#journal_title{
+  width: 80%;
+  font-size: 22px;
+  margin: 0 10%;
+  text-align: center;
+}
+
+#format_bar{
+  background-color: #A0AAA9;
+  width: 80%;
+  margin: 0 10%;
+  margin-top: 40px;
+}
+
+#format_bar select{
+  margin-left: 2%;
+}
+
+#greeting{
+  width: 80%;
+  margin: 0 10%;
+  text-align: right;
+}
+
+button, input[type=submit]{
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+}
+
+img.icon{
+  width: 200px;
+}
+
+div.icons{
+  width: 80%;
+  margin: 0 10%;
+}
+
+div.icons table{
+  width: 100%;
+  text-align: center;
+  background-color: white;
+  /*opacity: 0.4;*/
+}
+
+div.icons table a, form #submit_link{
+  color: #40444A;
+  font-size: 22px;
+}
+
+
+form #submit_link{
+    background: none;
+    border: none;
+    color: #40444A;
+    font-family: 'Nunito';
+    cursor: pointer;
+    padding-top: 0;
+}
+
+#labels form{
+  margin-top: 0px;
+}
+
+
+#discard{
+  margin-left: 55%;
+  color: #40444A;
+  font-size:20px;
+}
+
+#submit_link{
+  margin-bottom: 10px;
+  margin-left: 10px;
+  padding: 0;
+  font-size: 20px !important;
+  color: #40444A !important;
+}
+
+#submit_link:hover{
+  text-decoration: underline;
+}
+
+.myButton {
+  -moz-box-shadow: 0px 0px 0px 0px #1c1b18;
+  -webkit-box-shadow: 0px 0px 0px 0px #1c1b18;
+  box-shadow: 0px 0px 0px 0px #1c1b18;
+  background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #eae0c2), color-stop(1, #ccc2a6));
+  background:-moz-linear-gradient(top, #eae0c2 5%, #ccc2a6 100%);
+  background:-webkit-linear-gradient(top, #eae0c2 5%, #ccc2a6 100%);
+  background:-o-linear-gradient(top, #eae0c2 5%, #ccc2a6 100%);
+  background:-ms-linear-gradient(top, #eae0c2 5%, #ccc2a6 100%);
+  background:linear-gradient(to bottom, #eae0c2 5%, #ccc2a6 100%);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#eae0c2', endColorstr='#ccc2a6',GradientType=0);
+  background-color:#eae0c2;
+  -moz-border-radius:6px;
+  -webkit-border-radius:6px;
+  border-radius:6px;
+  border:2px solid #333029;
+  display:inline-block;
+  cursor:pointer;
+  color:#505739;
+  font-family:arial;
+  font-size:14px;
+  font-weight:bold;
+  padding:8px 12px;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #ffffff;
+}
+.myButton:hover {
+  background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ccc2a6), color-stop(1, #eae0c2));
+  background:-moz-linear-gradient(top, #ccc2a6 5%, #eae0c2 100%);
+  background:-webkit-linear-gradient(top, #ccc2a6 5%, #eae0c2 100%);
+  background:-o-linear-gradient(top, #ccc2a6 5%, #eae0c2 100%);
+  background:-ms-linear-gradient(top, #ccc2a6 5%, #eae0c2 100%);
+  background:linear-gradient(to bottom, #ccc2a6 5%, #eae0c2 100%);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ccc2a6', endColorstr='#eae0c2',GradientType=0);
+  background-color:#ccc2a6;
+}
+.myButton:active {
+  position:relative;
+  top:1px;
+}
+
+#greeting{
+  margin-top: 25px;
+  padding-right: 10px;
+}
+
+.journal_body{
+  text-indent: 20px;
+  font-size: 15px;
+  text-align: justify;
+}
+
+
+
+

@@ -1,0 +1,3 @@
+.accordion-toggle {cursor: pointer; margin: 0;}
+.accordion-content {display: none;}
+.accordion-content.default {display: block;}

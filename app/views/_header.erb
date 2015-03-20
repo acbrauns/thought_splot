@@ -1,0 +1,28 @@
+  <link rel="stylesheet" type="text/css" href="/css/header.css">
+
+  <header class='row'>
+
+      <div class='col-md-2 col-md-offset-2'>
+        <img id="logo" src="/images/thought_splot_transp_1.png">
+
+      </div>
+    <!-- <div id="navbar"> -->
+
+
+    <% if current_user %>
+      <div class='col-md-2 col-md-offset-5'>
+          <form action="/sessions/<%= current_user.id %>" method="post">
+            <input type="hidden" name="_method" value="delete">
+            <input id="logout_btn" class="btn btn-info" type="submit" value="Log Out">
+
+            <!-- <a href="#" class="myButton">Log Out</a> -->
+          </form>
+      </div>
+    <% else %>
+    <div class='col-md-5 col-md-offset-1'>
+      <%= erb :_login_form %>
+    </div>
+    <% end %>
+
+  </header>
+

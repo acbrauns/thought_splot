@@ -1,0 +1,14 @@
+table{
+  margin-top: 50px;
+  border: 20px #fff solid;
+  border-radius: 150px;
+  }
+
+#labels td > *{
+  /*margin-top: 50px;*/
+}
+
+img{
+  padding-bottom: 30px;
+  padding-top: 20px;
+}

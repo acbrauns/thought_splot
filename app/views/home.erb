@@ -1,0 +1,42 @@
+<link rel="stylesheet" type="text/css" href="/css/landingpage.css">
+
+<h4 id="greeting">Hello, <%= current_user.first_name %>!</h4>
+
+<div class="icons">
+  <table>
+    <tr>
+      <td>
+        <img class="icon" src="/images/pen2_dropshadow.png">
+      </td>
+      <td>
+        <img class="icon" src="/images/book2_gray_dropshadow.png">
+      </td>
+      <td>
+        <img class="icon"src="/images/wrench1_gray_dropshadow.png">
+      </td>
+    </tr>
+
+    <tr id="labels">
+      <td>
+        <form action="/users/<%= current_user.id %>/journals/new" method="post">
+          <input id="submit_link" type="submit" value="New Splot">
+        </form>
+      </td>
+      <td>
+        <a href="/read/<%= current_user.id %>">Read Journal</a>
+      </td>
+      <td>
+        <a href="/settings">Settings</a>
+      </td>
+
+    </tr>
+  </table>
+</div>
+
+
+
+
+
+
+
+
