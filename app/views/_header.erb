@@ -3,7 +3,16 @@
   <header class='row'>
 
       <div class='col-md-2 col-md-offset-2'>
-        <img id="logo" src="/images/thought_splot_transp_1.png">
+        <% if current_user %>
+
+          <a href="/users/<%= current_user.id %>">
+            <img id="logo" src="/images/thought_splot_transp_1.png">
+          </a>
+        <% else %>
+          <a href="/">
+            <img id="logo" src="/images/thought_splot_transp_1.png">
+          </a>
+        <% end %>
 
       </div>
     <!-- <div id="navbar"> -->

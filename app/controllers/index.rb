@@ -6,6 +6,7 @@ end
 #takes user to main page w/ icons
 get '/users/:id' do
   @nav = true
+
   erb :home
 end
 
