@@ -1,11 +1,14 @@
 table{
   margin-top: 50px;
-  border: 20px #fff solid;
-  border-radius: 150px;
+  /*border: 20px #fff solid;*/
+  border-radius: 10px;
+  /*opacity: 0.5;*/
+  /*background: red;*/
   }
 
-#labels td > *{
+#labels td {
   /*margin-top: 50px;*/
+  padding-bottom: 20px;
 }
 
 img{
